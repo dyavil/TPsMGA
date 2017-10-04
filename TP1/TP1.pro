@@ -18,7 +18,9 @@ SOURCES += main.cpp\
     gasket.cpp \
     mypoint.cpp \
     mytriangle.cpp \
-    mymesh.cpp
+    mymesh.cpp \
+    geometryaug.cpp \
+    geocirculators.cpp
 
 HEADERS  += mainwindow.h \
     gldisplay.h \
@@ -26,6 +28,8 @@ HEADERS  += mainwindow.h \
     myvector.h \
     mypoint.h \
     mytriangle.h \
-    mymesh.h
+    mymesh.h \
+    geometryaug.h \
+    geocirculators.h
 
 FORMS    += mainwindow.ui
